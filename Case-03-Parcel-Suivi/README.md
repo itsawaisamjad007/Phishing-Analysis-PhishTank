@@ -51,29 +51,29 @@ The page is now **BLOCKED with 403**. When URLScan tried to open it live, it got
 
 ## 1. VirusTotal Result
 
-**Score:** 15/94 vendors flagged
-**Phishing:** alphaMountain.ai, BitDefender, Sophos, LevelBlue, Google Safe Browsing, ESET, Fortinet, Lionic, VIPRE, SOCRadar, Gridinsoft, G-Data, Forcepoint ThreatSeeker
-**Malicious:** Webroot, Seclookup
+- **Score:** 15/94 vendors flagged
+- **Phishing:** alphaMountain.ai, BitDefender, Sophos, LevelBlue, Google Safe Browsing, ESET, Fortinet, Lionic, VIPRE, SOCRadar, Gridinsoft, G-Data, Forcepoint ThreatSeeker
+- **Malicious:** Webroot, Seclookup
 
 ![](./case%203%20virustotal%20result.png)
 
-**Analysis:** 15 independent vendors flagged it as Phishing + Malicious. This was my own confirmation that the PhishTank report was correct, not a false positive.
+- **Analysis:** 15 independent vendors flagged it as Phishing + Malicious. This was my own confirmation that the PhishTank report was correct, not a false positive.
 
 ![](./case%203%20virustotal%202.png)
 
-**Key Point:** Google Safe Browsing itself flagged it as Phishing. In Case 01 and Case 02, Google had not flagged it. In this case Google also flagged it, which means this is a confirmed, high-confidence phishing domain.
+- **Key Point:** Google Safe Browsing itself flagged it as Phishing. In Case 01 and Case 02, Google had not flagged it. In this case Google also flagged it, which means this is a confirmed, high-confidence phishing domain.
 
 ---
 
 ## 2. URLScan.io Result
 
-**Summary:** This website contacted 2 IPs in 1 country across 2 domains to perform 9 HTTP transactions. The main IP is 172.67.220.172, located in Ascension Island and belongs to CLOUDFLARENET (Cloudflare, Inc., US). The main domain is **portal.canaldigitalpj.com**.
+- **Summary:** This website contacted 2 IPs in 1 country across 2 domains to perform 9 HTTP transactions. The main IP is 172.67.220.172, located in Ascension Island and belongs to CLOUDFLARENET (Cloudflare, Inc., US). The main domain is **portal.canaldigitalpj.com**.
 
-**TLS Certificate:** Issued by WE1 on October 16th 2026. (Valid for: 3mo).
-**Google Safe Browsing:** Malicious (for portal.canaldigitalpj.com)
-**Current DNS A Record:** 188.114.96.3 (AS13335 - CLOUDFLARENET - Cloudflare, Inc., US)
-**Domain Created:** August 18th 2026, 07:23:33 (UTC)
-**Domain Registrar:** Dominet (HK) Limited
+- **TLS Certificate:** Issued by WE1 on October 16th 2026. (Valid for: 3mo).
+- **Google Safe Browsing:** Malicious (for portal.canaldigitalpj.com)
+- **Current DNS A Record:** 188.114.96.3 (AS13335 - CLOUDFLARENET - Cloudflare, Inc., US)
+- **Domain Created:** August 18th 2026, 07:23:33 (UTC)
+- **Domain Registrar:** Dominet (HK) Limited
 
 ![](./case%203%20urlscan.io%20result%201.png)
 
