@@ -1,0 +1,80 @@
+Phishing Analysis - PhishTank (5 Cases)
+Analyst: Awais Amjad
+Date: 17-19 Nov 2026
+
+
+CASE 01 - Shopping / Fake Shop
+PhishTank ID : 9560802
+Malicious URL: See Case-01/README.md
+Domain: allegrolokalnie.letnie-okazje491831.shop
+IP : 5.134.215.224
+Status: 404 - DEAD
+VirusTotal: 4/93
+Verdict: CONFIRMED PHISHING
+Block: allegrolokalnie.letnie-okazje491831.shop, 5.134.215.224
+
+
+CASE 02 - Login / Direct Login
+PhishTank ID : 9560676
+Malicious URL: See Case-02/README.md
+Domain: ktadbs-pinjaman.blogspot.com.br
+IP : 142.250.115.132
+Status: 200 - LIVE
+VirusTotal: 8/94
+Verdict: CONFIRMED PHISHING
+Block: ktadbs-pinjaman.blogspot.com.br, 142.250.115.132
+
+
+
+CASE 03 - Parcel / Fake Tracking
+PhishTank ID : 9561318
+Malicious URL: See Case-03/README.md
+Domain: portal.canaldigitalpj.com
+IP : 104.21.70.64
+Status: 403 - BLOCKED
+VirusTotal: 15/94
+Verdict: CONFIRMED PHISHING
+Block: portal.canaldigitalpj.com, 104.21.70.64
+
+
+CASE 04 - Netflix Upgrade Phishing
+PhishTank ID: 9561333
+Malicious URL: https://www.netflix-upgrade.com/
+Domain: www.netflix-upgrade.com
+IP: 79.133.42.33
+Status: 200 - LIVE
+VirusTotal: 5/93 
+Block: www.netflix-upgrade.com , 79.133.42.33
+
+
+
+CASE 05 - Gleaming Conference Phishing (Framer Abuse)
+PhishTank ID: 9561836
+Malicious URL: https://gleaming-conference-764748.framer.app/
+Domain: gleaming-conference-764748.framer.app
+IP  : 31.43.160.6
+Second IP (IPv6): 2600:9000:208a:6200:d:6b42:4ec0:93a1
+Status: 404 - DEAD
+VirusTotal: 19/94 
+Bock : gleaming-conference-764748.framer.app , 31.43.160.6
+
+GENERAL BLOCKLIST - DOMAINS
+
+allegrolokalnie.letnie-okazje491831.shop
+ktadbs-pinjaman.blogspot.com.br
+portal.canaldigitalpj.com
+www.netflix-upgrade.com
+gleaming-conference-764748.framer.app
+
+GENERAL BLOCKLIST - IPs
+104.21.70.64
+142.250.115.132
+5.134.215.224
+79.133.42.33
+31.43.160.6
+
+
+LEGIT DOMAINS - DO NOT BLOCK
+These were abused to load images / files, they are NOT phishing:
+upload.wikimedia.org - Used by Case 04 to load Netflix logo
+app.framerstatic.com - Real Framer static hosting, used by Case 05
