@@ -49,17 +49,17 @@ Phishing-Analysis-PhishTank/
 ├── Screenshots and evidence
 ├── Case-01-Shopping-Allegro/
 │   ├── README.md
-│   └── screenshots/
+│   └── screenshots
 ├── Case-02-Login-Pinjaman/
 │   ├── README.md
-│   └── screenshots/
+│   └── screenshots
 ├── Case-03-Parcel-Tracking/
 │   ├── README.md
-│   └── screenshots/
+│   └── screenshots
 ├── Case-04-Netflix-Upgrade/
 │   ├── README.md
-│   └── screenshots/
+│   └── screenshots
 └── Case-05-Framer-Abuse/
     ├── README.md
-    └── screenshots/
+    └── screenshots
     
