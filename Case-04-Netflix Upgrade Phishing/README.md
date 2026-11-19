@@ -78,9 +78,9 @@ The page is still **LIVE with Status 200**. Unlike Case 01 (404 - dead) and Case
 
 ### Live Information:
 
-**Current DNS A Record:** 79.133.42.33 (AS214036 - ULTAHOST-AS Ultahost, Inc., US)
-**Domain Created:** November 17th 2026, 01:29:12 (UTC)
-**Domain Registrar:** Key-Systems GmbH
+- **Current DNS A Record:** 79.133.42.33 (AS214036 - ULTAHOST-AS Ultahost, Inc., US)
+- **Domain Created:** November 17th 2026, 01:29:12 (UTC)
+- **Domain Registrar:** Key-Systems GmbH
 
 ![](./URL%20scan.io%201.png)
 

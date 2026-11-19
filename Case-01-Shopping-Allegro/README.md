@@ -10,9 +10,9 @@
 | Date Analyzed | 17 Nov 2026 |
 | Analyst | Awais Amjad |
 
-**Malicious URL:** http://allegrolokalnie.letnie-okazje491831.shop/
-**PhishTank ID:** 9560802
-**Brand Impersonated:** Allegro Lokalnie (Polish Shopping Site)
+- **Malicious URL:** http://allegrolokalnie.letnie-okazje491831.shop/
+- **PhishTank ID:** 9560802
+- **Brand Impersonated:** Allegro Lokalnie (Polish Shopping Site)
 
 ---
 
@@ -46,13 +46,13 @@ The page is now **DEAD**. After detection, the fake domain started redirecting t
 
 ## 1. VirusTotal Result
 
-**Score:** 4/93 vendors flagged
-**Phishing:** Forcepoint, G-Data, SOCRadar, Sophos
-**Suspicious:** ESET, LevelBlue
+- **Score:** 4/93 vendors flagged
+- **Phishing:** Forcepoint, G-Data, SOCRadar, Sophos
+- **Suspicious:** ESET, LevelBlue
 
 ![](./Testing%20phishing%201%20in%20virustotal.png)
 
-**Analysis:** 4 vendors flagged it as Phishing + 2 as Suspicious. Low score is normal for a 2-hour-old domain - most vendors had not seen it yet. This is why we do not rely on VirusTotal alone, we verify with URLScan + Domain Age.
+- **Analysis:** 4 vendors flagged it as Phishing + 2 as Suspicious. Low score is normal for a 2-hour-old domain - most vendors had not seen it yet. This is why we do not rely on VirusTotal alone, we verify with URLScan + Domain Age.
 
 ---
 
@@ -89,8 +89,8 @@ This is a common evasion technique to hide phishing after detection.
 - 185.31.27.181 (QXL-POLAND)
 - 5.134.215.226 (QXL-POLAND)
 
-**Google Safe Browsing:** NO classification - Google has not flagged it yet, attack is new.
-**Page Stats:** 99 Requests, 9 Domains
+- **Google Safe Browsing:** NO classification - Google has not flagged it yet, attack is new.
+- **Page Stats:** 99 Requests, 9 Domains
 
 ![](./case%2001%20url.io%20scan%20result%20part%202.png)
 

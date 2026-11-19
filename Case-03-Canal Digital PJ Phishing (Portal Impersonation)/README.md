@@ -10,12 +10,12 @@
 | Date Analyzed | 18 Nov 2026 |
 | Analyst | Awais Amjad |
 
-**Malicious URL:** https://portal.canaldigitalpj.com/pj/acesso-seguro...
-**Domain:** portal.canaldigitalpj.com
-**PhishTank ID:** 9561318
-**IP ADDRESS:** 104.21.70.64
-**Current Status Code:** 403 - Blocked
-**Category:** Phishing and Fraud
+- **Malicious URL:** https://portal.canaldigitalpj.com/pj/acesso-seguro...
+- **Domain:** portal.canaldigitalpj.com
+- **PhishTank ID:** 9561318
+- **IP ADDRESS:** 104.21.70.64
+- **Current Status Code:** 403 - Blocked
+- **Category:** Phishing and Fraud
 
 ---
 
@@ -57,17 +57,17 @@ The page is now **BLOCKED with 403**. When URLScan tried to open it live, it got
 
 ![](./case%203%20virustotal%20result.png)
 
-- **Analysis:** 15 independent vendors flagged it as Phishing + Malicious. This was my own confirmation that the PhishTank report was correct, not a false positive.
+**Analysis:** 15 independent vendors flagged it as Phishing + Malicious. This was my own confirmation that the PhishTank report was correct, not a false positive.
 
 ![](./case%203%20virustotal%202.png)
 
-- **Key Point:** Google Safe Browsing itself flagged it as Phishing. In Case 01 and Case 02, Google had not flagged it. In this case Google also flagged it, which means this is a confirmed, high-confidence phishing domain.
+**Key Point:** Google Safe Browsing itself flagged it as Phishing. In Case 01 and Case 02, Google had not flagged it. In this case Google also flagged it, which means this is a confirmed, high-confidence phishing domain.
 
 ---
 
 ## 2. URLScan.io Result
 
-- **Summary:** This website contacted 2 IPs in 1 country across 2 domains to perform 9 HTTP transactions. The main IP is 172.67.220.172, located in Ascension Island and belongs to CLOUDFLARENET (Cloudflare, Inc., US). The main domain is **portal.canaldigitalpj.com**.
+**Summary:** This website contacted 2 IPs in 1 country across 2 domains to perform 9 HTTP transactions. The main IP is 172.67.220.172, located in Ascension Island and belongs to CLOUDFLARENET (Cloudflare, Inc., US). The main domain is **portal.canaldigitalpj.com**.
 
 - **TLS Certificate:** Issued by WE1 on October 16th 2026. (Valid for: 3mo).
 - **Google Safe Browsing:** Malicious (for portal.canaldigitalpj.com)
@@ -96,14 +96,16 @@ The page is now **BLOCKED with 403**. When URLScan tried to open it live, it got
 
 ---
 
-## 4. Live Page Verification
+## 4. Live Page Verification - Via URLScan.io
 
 ![](./Live%20page%20verification.png)
+
+**Note:** I did not open this link directly in my own browser. This screenshot is from URLScan.io's live scan. When URLScan opened the site with its scanner, it received this block page.
 
 **What This Proves:**
 1. The phishing page is no longer openly accessible
 2. Attacker has enabled Cloudflare WAF / Bot Protection after detection
-3. URLScan and normal users now get a 403 block page instead of the fake login page
+3. Even URLScan's scanner got a 403 block page instead of the fake login page
 4. This is a common post-detection evasion technique - block everyone to hide evidence
 
 This is different from Case 01 (404 - dead) and Case 02 (still LIVE). In this case the attacker is actively hiding.

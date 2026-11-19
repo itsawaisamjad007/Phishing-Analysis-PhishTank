@@ -10,11 +10,11 @@
 | Date Analyzed | 17 Nov 2026 |
 | Analyst | Awais Amjad |
 
-**Malicious URL:** http://ktadbs-pinjaman.blogspot.com.br/?entity=3132...
-**Effective URL:** https://ktadbs-pinjaman.blogspot.com/?entity=3132...
-**Domain:** ktadbs-pinjaman.blogspot.com.br
-**PhishTank ID:** 9560676
-**Brand Impersonated:** DBS Bank - KTA (Kredit Tanpa Agunan)
+- **Malicious URL:** http://ktadbs-pinjaman.blogspot.com.br/?entity=3132...
+- **Effective URL:** https://ktadbs-pinjaman.blogspot.com/?entity=3132...
+- **Domain:** ktadbs-pinjaman.blogspot.com.br
+- **PhishTank ID:** 9560676
+- **Brand Impersonated:** DBS Bank - KTA (Kredit Tanpa Agunan)
 
 ---
 
@@ -49,24 +49,24 @@ The page is **still LIVE** and actively collecting victims via a personal Indone
 
 ## 1. VirusTotal Result
 
-**Score:** 8/93 vendors flagged
-**Phishing:** alphaMountain.ai, BitDefender, Emsisoft, ESET, Fortinet, Lionic
-**Malicious:** Netcraft, Webroot
+- **Score:** 8/93 vendors flagged
+- **Phishing:** alphaMountain.ai, BitDefender, Emsisoft, ESET, Fortinet, Lionic
+- **Malicious:** Netcraft, Webroot
 
 ![](./case%202%20virustotal%20result.png)
 
-**Analysis:** 8 independent vendors flagged it as Phishing + Malicious. This was my first confirmation that the PhishTank report was correct, not a false positive.
+- **Analysis:** 8 independent vendors flagged it as Phishing + Malicious. This was my first confirmation that the PhishTank report was correct, not a false positive.
 
 ---
 
 ## 2. URLScan.io Verification
 
-**Effective URL:** https://ktadbs-pinjaman.blogspot.com/?entity=3132...
-**Page Title:** KTA DBS | Kredit Tanpa Agunan ***INSTANT APPROVAL***
-**Domain Age:** 25d old at time of scan
-**TLS Certificate:** Issued by WE2 on November 3rd 2026, Valid for 3 months
-**Page Activity:** 9 IPs in 4 countries across 7 domains, 18 HTTP transactions
-**Scanned:** 13 times on URLScan already
+- **Effective URL:** https://ktadbs-pinjaman.blogspot.com/?entity=3132...
+- **Page Title:** KTA DBS | Kredit Tanpa Agunan ***INSTANT APPROVAL***
+- **Domain Age:** 25d old at time of scan
+- **TLS Certificate:** Issued by WE2 on November 3rd 2026, Valid for 3 months
+- **Page Activity:** 9 IPs in 4 countries across 7 domains, 18 HTTP transactions
+- **Scanned:** 13 times on URLScan already
 
 ![](./case%202%20url.io%20result%20part%201.png)
 
